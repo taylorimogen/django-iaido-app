@@ -3,7 +3,7 @@ version: '3'
 services:
   web:
     build: .
-    command: bash -c "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    command: bash -c "python manage.py makemigrations && python manage.py migrate && python manage.py loaddata person_api/fixtures/users.json && python manage.py loaddata person_api/fixtures/people.json && python manage.py runserver 0.0.0.0:8000"
     container_name: person_api_service
     volumes:
       - .:/person_api_service

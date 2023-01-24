@@ -1,0 +1,44 @@
+[
+  {
+    "model": "person_api.Person",
+    "pk": 1,
+    "fields": {
+      "first_name": "Harry",
+      "last_name": "Potter",
+      "email": "harrypotter@email.com",
+      "phone": "01234 56789",
+      "date_of_birth": "2000-12-12",
+      "age": "13",
+      "username": "hpotter",
+      "password": "hpotter"
+    }
+  },
+  {
+    "model": "person_api.Person",
+    "pk": 2,
+    "fields": {
+      "first_name": "Lily",
+      "last_name": "Potter",
+      "email": "lilypotter@email.com",
+      "phone": "01234 56789",
+      "date_of_birth": "1980-12-12",
+      "age": "54",
+      "username": "lpotter",
+      "password": "lpotter"
+    }
+  },
+  {
+    "model": "person_api.Person",
+    "pk": 3,
+    "fields": {
+      "first_name": "Luna",
+      "last_name": "Lovegood",
+      "email": "lunalovegood@email.com",
+      "phone": "01234 56789",
+      "date_of_birth": "2000-12-12",
+      "age": "13",
+      "username": "llovegood",
+      "password": "llovegood"
+    }
+  }
+]
